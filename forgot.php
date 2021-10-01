@@ -22,6 +22,11 @@
               
     }
 
+    .input {
+            margin-bottom: 1rem ;
+        }
+
+
     </style>
     
 </head>
@@ -52,7 +57,14 @@
                 <div class="footer-elements">
 
                 <button class="btn" type="submit" name="prisijungti">Send</button>
-                <a href="login.php">Back</a>
+                
+                <a href="login.php">
+                    <h6>Log In</h6>
+                </a>
+
+                <a href="signup.php">
+                    <h6>Sign up</h6>
+                </a>
                 
                 </div>
             </div>

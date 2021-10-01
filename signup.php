@@ -47,6 +47,9 @@
 
                     <div class="footer-elements">
                         <button class="btn" type="submit" name="prisijungti">Log In</button>
+                        <a href="forgot.php">
+                            <h6>Forgot ID or Pass</h6>
+                        </a>
                     </div>
                 </div>
         

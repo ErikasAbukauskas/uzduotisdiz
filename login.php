@@ -22,19 +22,21 @@
     }
 
     .fraze {
-           text-align: center;
-           color: red;
-           margin-top: 15px;
-           font-weight: 700;
-        }
+        text-align: center;
+        color: red;
+    }
 
-        .textas {
-            text-align: center;
-        }
+    .textas {
+        text-align: center;
+    }
 
-        .div {
-            margin-top: 30px;
+    .div {
+        margin-top: 30px;
             
+    }
+
+    .input {
+            margin-bottom: 1rem ;
         }
 
 
@@ -51,6 +53,7 @@
             box-shadow: 0 4px 8px darkgrey;
  
         }
+
 
     </style>
     
@@ -154,12 +157,6 @@
                             <input type="password" name="slaptazodis" placeholder="Suveskite slaptazodi"/>
                         </div>
 
-                        <div class="footer-elements">
-                        <button class="btn" type="submit" name="prisijungti">Log In</button>
-                            <p>or</p>
-                            <a href="forgot.php">Forgot ID or Password</a>
-                        </div>
-
                         <div class="fraze">
                             <?php
                                 if(isset($message)) {
@@ -171,6 +168,19 @@
                                 }
                             ?>
                         </div>
+
+                        <div class="footer-elements">
+                        <button class="btn" type="submit" name="prisijungti">Log In</button>
+                            <p>or</p>
+                            <a href="forgot.php">
+                                <h6>Forgot ID or Pass</h6>
+                            </a>
+                            <a href="signup.php">
+                                <h6>Sign up</h6>
+                            </a>
+                        </div>
+
+                    
             
                     </div>
 
@@ -189,7 +199,6 @@ echo '<div class="container">
 <div class="left">
     <div class="left-container">
         <h1>Singn up</h1>
-
         <div class="nuorodos">
             <a href="#">Privacy policy</a>
             <p>&</p>
@@ -202,9 +211,7 @@ echo '<div class="container">
     <div class="right-container">
         <span class="close">x</span>
         
-
     </form>
-
 </div>';
 
 ?>
@@ -264,4 +271,3 @@ echo '<div class="container">
  
 </body>
 </html>
-
